@@ -20,14 +20,14 @@ public class DynamoDBConfiguration {
         return AmazonDynamoDBClientBuilder
                 .standard()
                 .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(
-                        "dynamodb.us-east-2.amazonaws.com",
-                        "us-east-2"
+                        "db link",
+                        "region"
                 ))
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
                                 new BasicAWSCredentials(
-                                        "AKIA5BMUX5KS42U55MQZ",
-                                        "IukB3LQrva5QL1F6t3SSIcAJ08657Vh7Wkg/KAdR"
+                                        "",
+                                        ""
                                 )
                         )
                 ).build();
